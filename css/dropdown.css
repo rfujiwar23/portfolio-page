@@ -1,0 +1,74 @@
+.section h3 {
+  text-align: center;
+  color:#000;
+  padding-top: 10px;
+}
+
+.drop_select {
+overflow: hidden;
+width: 90%;
+margin: 5px auto;
+text-align: center;
+}
+.drop_select select {
+width: 100%;
+padding-right: 1em;
+cursor: pointer;
+text-indent: 0.01px;
+text-overflow: ellipsis;
+border: none;
+outline: none;
+background: transparent;
+background-image: none;
+box-shadow: none;
+-webkit-appearance: none;
+appearance: none;
+}
+.drop_select select::-ms-expand {
+display: none;
+}
+.drop_select.inner {
+position: relative;
+border-radius: 2px;
+border: 2px solid #22333B;
+border-radius: 10px;
+background: #ffffff;
+}
+.drop_select.inner::before {
+position: absolute;
+top: 0.8em;
+right: 0.8em;
+width: 0;
+height: 0;
+padding: 0;
+content: '';
+border-left: 6px solid transparent;
+border-right: 6px solid transparent;
+border-top: 6px solid #22333B;
+pointer-events: none;
+}
+.drop_select.inner select {
+padding: 8px 8px 8px 8px;
+color: #22333B;
+}
+
+.box {
+  padding: 20px;
+  display: none;
+  margin: 20px auto;
+  width:80%;
+  border: 1px solid #000;
+  text-align: center;
+}
+
+
+
+/* .red {
+  background: #ff0000;
+}
+.green {
+  background: #00ff00;
+}
+.blue {
+  background: #0000ff;
+} */
